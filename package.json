@@ -4,7 +4,7 @@
   "description": "Es una libreria encargada de validar links dentro de un archivo marckdown",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/paula113/LIM012-fe-md-links#readme",
   "devDependencies": {
+    "eslint": "^7.1.0",
     "jest": "^26.0.1"
   }
 }
