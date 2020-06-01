@@ -1,0 +1,22 @@
+{
+  "name": "lim012-fe-md-links",
+  "version": "1.0.0",
+  "description": "Es una libreria encargada de validar links dentro de un archivo marckdown",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paula113/LIM012-fe-md-links.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paula113/LIM012-fe-md-links/issues"
+  },
+  "homepage": "https://github.com/paula113/LIM012-fe-md-links#readme",
+  "devDependencies": {
+    "jest": "^26.0.1"
+  }
+}
