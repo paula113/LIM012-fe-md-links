@@ -4,7 +4,8 @@
   "description": "Es una libreria encargada de validar links dentro de un archivo marckdown",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "babel src -d lib"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,10 @@
   },
   "homepage": "https://github.com/paula113/LIM012-fe-md-links#readme",
   "devDependencies": {
+    "@babel/cli": "^7.10.1",
+    "@babel/core": "^7.10.2",
+    "@babel/plugin-transform-modules-commonjs": "^7.10.1",
+    "@babel/preset-env": "^7.10.2",
     "eslint": "^7.1.0",
     "jest": "^26.0.1"
   }
