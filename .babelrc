@@ -1,15 +1,8 @@
 {
-    "presets": ["@babel/preset-env"]
-}
-// without options
-{
-    "plugins": ["@babel/plugin-transform-modules-commonjs"]
-}
-// with options
-{
-"plugins": [
-    ["@babel/plugin-transform-modules-commonjs", {
-    "allowTopLevelThis": true
-    }]
-]
+    "presets": ["@babel/preset-env"],
+    "plugins": [
+        ["@babel/plugin-transform-modules-commonjs", {
+        "allowTopLevelThis": true
+        }]
+    ]
 }
