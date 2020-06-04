@@ -2,7 +2,7 @@
 import { toAbsolute } from '../lib/sum';
 
 const paths = {
-  mixedPaths: [],
+  mixedPaths: ['/Users/Drive/Documents/LABORAToRIa/LIM012-fe-md-links/links', 'links/testLinks01.md', 'links/testLinks02.md', 'links/morefiles/app.js', 'links/morefiles/morefiles01.md'],
 
   absPaths: [],
 };
