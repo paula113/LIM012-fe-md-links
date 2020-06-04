@@ -4,7 +4,7 @@
   "description": "Es una libreria encargada de validar links dentro de un archivo marckdown",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest --coverage",
     "build": "babel src -d lib"
   },
   "repository": {
