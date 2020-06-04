@@ -1,9 +1,20 @@
 // const sum = require('./src/sum');
-import { sum } from '../lib/sum';
+import { toAbsolute } from '../lib/sum';
 
-describe('adds 1 + 2 to equal 3', () => {
-  test('debe sumar', () => {
-    expect(sum(1, 2)).toBe(3);
+const paths = {
+  mixedPaths: [],
+
+  absPaths: [],
+};
+const { mixedPaths, absPaths } = paths;
+
+describe('Checks for absolute paths if not converts them', () => {
+  test('It should return absolute paths', () => {
+    expect(toAbsolute(mixedPaths)).toBe(absPaths);
   });
-  // testexpect(sum(1, 2)).toBe(3);
+  // test('object assignment', () => {
+  //   const data = { one: 1 };
+  //   data.two = 2;
+  //   expect(data).toEqual({ one: 1, two: 2 });
+  // });
 });
