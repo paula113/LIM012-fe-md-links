@@ -1,6 +1,4 @@
-import {
-  areThereLinks, getLinks, linkPage, getState,
-} from '../lib/markdown-it';
+const md = require('../lib/markdown-it');
 
 const data = {
   nolinksFile: '/Users/Drive/Documents/LABORAToRIa/LIM012-fe-md-links/links/testLinks02.md',
@@ -12,34 +10,36 @@ const data = {
     'https://github.com/jsdom/jsdom',
     'https://github.com/cheeriojs/cheerio',
   ],
-  domain: 'github.com',
+  url: 'https://github.com/markdown-it/markdown-it',
   state: 'markdown it',
 };
 
 const {
-  nolinksFile, contentFile, mdLinks, domain, state,
+  nolinksFile, contentFile, mdLinks, url, state,
 } = data;
 
 describe('checks if there are links in a markdown file', () => {
+  // MOCK
   it('Should return false if no links were found', () => {
-    expect(areThereLinks(nolinksFile)).not.toBeTruthy();
+    expect(md.areThereLinks(nolinksFile)).not.toBeTruthy();
   });
   it('Should return true if file does contain links', () => {
-    expect(areThereLinks(contentFile)).toBeTruthy();
+    expect(md.areThereLinks(contentFile)).toBeTruthy();
   });
 });
 
 describe('Retrive links from a markdown file', () => {
+  // MOCK
   it('Should return false if no links were found', () => {
-    expect(getLinks(contentFile, 'url')).toEqual(mdLinks);
+    expect(md.getLinks(contentFile, 'url')).toEqual(mdLinks);
   });
 });
 
-describe('Ckecks for the url and state of a link', () => {
-  it('Should return a domain', () => {
-    expect(linkPage(mdLinks[0])).toEqual(domain);
+describe('', () => {
+  it('Should return an object', () => {
+    expect(md.links(mdLinks[0])).toEqual({});
   });
   it('Should return link state', () => {
-    expect(getState(mdLinks[0])).toBe(state);
+    expect(md.listofLinks(mdLinks[0])).toBe(state);
   });
 });
