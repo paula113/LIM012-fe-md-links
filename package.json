@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Es una libreria encargada de validar links dentro de un archivo marckdown",
   "main": "index.js",
+  "bin": {
+    "say-hello": "./lib/cli.js"
+  },
   "scripts": {
     "test": "jest --coverage",
     "build": "babel src -d lib"
