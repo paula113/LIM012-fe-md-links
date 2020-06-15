@@ -1,5 +1,6 @@
-# MDLINKS
+# MDLINKS(path [,options])
 ***
+
 ## Mardown
 
 [Markdown](https://es.wikipedia.org/wiki/Markdown) es un lenguaje de marcado
@@ -17,32 +18,35 @@ herramienta usando [Node.js](https://nodejs.org/), que lea y analice archivos
 en formato `Markdown`, para verificar los links que contengan y reportar
 algunas estadísticas.
 ***
+
 ## Instalacíon
 
 ```
 $ npm install paula113/md-links
 ```
 ***
+
 #### ✔ Resumen
+***
 
 Expone ejecutable `md-links` con las opciones:
 
 - `--validate`: Determina si se desea validar los links encontrados por medio de una petición HTTP para averiguar si el link funciona o no
-![Implementacion de --validate]()
+<!-- ![Implementacion de --validate]() -->
 
 - `--stats`: Mostrará estadísticas básicas sobre los links. 
-![Implementacion de ---stats]()
+<!-- ![Implementacion de ---stats]() -->
 
 - `--validate` y `--stats`: Representa las estadísticas que necesiten de los resultados de la validación. 
-![Implementacion de --validate --stats]()
+<!-- ![Implementacion de --validate --stats]() -->
 
 
 ***
-## Diagrama de flujo
+<!-- ## Diagrama de flujo -->
 
-### API
+<!-- ### API
 
-### CLI
+### CLI -->
 
 ## Objetivos de aprendizaje
 
