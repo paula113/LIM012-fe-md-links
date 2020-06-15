@@ -4,7 +4,10 @@
   "description": "Es una libreria encargada de validar links dentro de un archivo marckdown",
   "main": "index.js",
   "bin": {
-    "say-hello": "./lib/cli.js"
+    "mdLinks": "./lib/cli.js"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "scripts": {
     "test": "jest --coverage",
@@ -30,6 +33,7 @@
   },
   "dependencies": {
     "babel-jest": "^26.0.1",
+    "chalk": "^4.1.0",
     "eslint-config-airbnb-base": "^14.1.0",
     "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-jest": "^23.13.2",
