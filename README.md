@@ -45,10 +45,10 @@ Expone ejecutable `md-links` con las opciones:
 ## Diagrama de flujo 
 
 ### API
-<img src="https://github.com/paula113/LIM012-fe-md-links/blob/master/img/api.jpg" width="340" height="280" ><img>
+<img src="https://github.com/paula113/LIM012-fe-md-links/blob/master/img/api.jpg" width="440" height="380" ><img>
 
 ### CLI
-<img src="https://github.com/paula113/LIM012-fe-md-links/blob/master/img/cli.jpg" width="340" height="180" ><img>
+<img src="https://github.com/paula113/LIM012-fe-md-links/blob/master/img/cli.jpg" width="540" height="280" ><img>
 
 ## Objetivos de aprendizaje
 
