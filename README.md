@@ -42,11 +42,13 @@ Expone ejecutable `md-links` con las opciones:
 
 
 ***
-<!-- ## Diagrama de flujo -->
+## Diagrama de flujo 
 
-<!-- ### API
+### API
+<img src="https://github.com/paula113/LIM012-fe-md-links/blob/master/img/api.jpg" width="340" height="280" ><img>
 
-### CLI -->
+### CLI
+<img src="https://github.com/paula113/LIM012-fe-md-links/blob/master/img/cli.jpg" width="340" height="180" ><img>
 
 ## Objetivos de aprendizaje
 
