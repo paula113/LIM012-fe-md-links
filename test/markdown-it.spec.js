@@ -1,8 +1,8 @@
 const md = require('../lib/markdown-it');
 
+// const mk = jest.mock('markdown-t');
 
 const data = {
-  nolinksFile: '/Users/Drive/Documents/LABORAToRIa/LIM012-fe-md-links/links/testLinks02.md',
   contentFile: '/Users/Drive/Documents/LABORAToRIa/LIM012-fe-md-links/links/testLinks01.md',
   mdLinks: [
     'https://github.com/markdown-it/markdown-it',
@@ -11,36 +11,58 @@ const data = {
     'https://github.com/jsdom/jsdom',
     'https://github.com/cheeriojs/cheerio',
   ],
-  url: 'https://github.com/markdown-it/markdown-it',
-  state: 'markdown it',
 };
-
+const details = {
+  href: 'https://github.com/markdown-it/markdown-it',
+  text: 'markdown it',
+  file: '/Users/Drive/Documents/LABORAToRIa/LIM012-fe-md-links/links/testLinks01.md',
+};
+const links = [
+  {
+    href: 'https://github.com/markdown-it/markdown-it',
+    text: 'markdown it',
+    file: '/Users/Drive/Documents/LABORAToRIa/LIM012-fe-md-links/links/testLinks01.md',
+  },
+  {
+    href: 'https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Regular_Expressions',
+    text: 'Regular Expressions',
+    file: '/Users/Drive/Documents/LABORAToRIa/LIM012-fe-md-links/links/testLinks01.md',
+  },
+  {
+    href: 'https://github.com/markedjs/marked',
+    text: 'marked',
+    file: '/Users/Drive/Documents/LABORAToRIa/LIM012-fe-md-links/links/testLinks01.md',
+  },
+  {
+    href: 'https://github.com/jsdom/jsdom',
+    text: 'jsdom',
+    file: '/Users/Drive/Documents/LABORAToRIa/LIM012-fe-md-links/links/testLinks01.md',
+  },
+  {
+    href: 'https://github.com/cheeriojs/cheerio',
+    text: 'cheerio',
+    file: '/Users/Drive/Documents/LABORAToRIa/LIM012-fe-md-links/links/testLinks01.md',
+  },
+];
 const {
-  nolinksFile, contentFile, mdLinks, url, state,
+  contentFile, mdLinks,
 } = data;
 
-describe('checks if there are links in a markdown file', () => {
-  // MOCK
-  it('Should return false if no links were found', () => {
-    expect(md.areThereLinks(nolinksFile)).not.toBeTruthy();
-  });
-  it('Should return true if file does contain links', () => {
-    expect(md.areThereLinks(contentFile)).toBeTruthy();
-  });
-});
-
-describe('Retrive links from a markdown file', () => {
+describe('Retrives links from a markdown file', () => {
   // MOCK
   it('Should return false if no links were found', () => {
     expect(md.getLinks(contentFile, 'url')).toEqual(mdLinks);
   });
 });
 
-describe('', () => {
+describe('Retrieves properties of a links', () => {
   it('Should return an object', () => {
-    expect(md.links(mdLinks[0])).toEqual({});
+    expect(md.links(mdLinks[0], contentFile)).toEqual(details);
   });
-  it('Should return link state', () => {
-    expect(md.listofLinks(mdLinks[0])).toBe(state);
+});
+
+describe('Recieves an array of links ', () => {
+  it('Should return an new array of objects for each link', () => {
+    expect(md.listofLinks(mdLinks, '/Users/Drive/Documents/LABORAToRIa/LIM012-fe-md-links/links/testLinks01.md')).toEqual(links);
   });
 });

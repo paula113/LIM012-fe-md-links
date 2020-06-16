@@ -22,7 +22,7 @@ algunas estadísticas.
 ## Instalacíon
 
 ```
-$ npm install paula113/md-links
+
 ```
 ***
 
