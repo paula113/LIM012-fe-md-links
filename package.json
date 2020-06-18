@@ -2,7 +2,7 @@
   "name": "lim012-fe-md-links",
   "version": "1.0.0",
   "description": "Es una libreria encargada de validar links dentro de un archivo marckdown",
-  "main": "index.js",
+  "main": "md-links.js",
   "bin": {
     "md-links": "./lib/cli.js"
   },
