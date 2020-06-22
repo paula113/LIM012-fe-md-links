@@ -48,12 +48,6 @@ const {
   contentFile, mdLinks,
 } = data;
 
-describe('Retrives links from a markdown file', () => {
-  // MOCK
-  it('Should return false if no links were found', () => {
-    expect(md.getLinks(contentFile, 'url')).toEqual(mdLinks);
-  });
-});
 
 describe('Retrieves properties of a links', () => {
   it('Should return an object', () => {

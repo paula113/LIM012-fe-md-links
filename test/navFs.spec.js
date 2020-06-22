@@ -14,6 +14,7 @@ const paths = {
   ],
 };
 const listOfAnyFiles = [
+  '/Users/Drive/Documents/LABORAToRIa/LIM012-fe-md-links/links/morefiles',
   '/Users/Drive/Documents/LABORAToRIa/LIM012-fe-md-links/links/morefiles/app.js',
   '/Users/Drive/Documents/LABORAToRIa/LIM012-fe-md-links/links/morefiles/morefile02.md',
   '/Users/Drive/Documents/LABORAToRIa/LIM012-fe-md-links/links/morefiles/morefiles01.md',
