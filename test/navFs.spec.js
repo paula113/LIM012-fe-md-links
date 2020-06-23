@@ -9,6 +9,7 @@ const paths = {
   mdFiles: [
     '/Users/Drive/Documents/LABORAToRIa/LIM012-fe-md-links/links/morefiles/morefile02.md',
     '/Users/Drive/Documents/LABORAToRIa/LIM012-fe-md-links/links/morefiles/morefiles01.md',
+    '/Users/Drive/Documents/LABORAToRIa/LIM012-fe-md-links/links/morefiles/testfiles/moretestfiles/more-test-files01.md',
     '/Users/Drive/Documents/LABORAToRIa/LIM012-fe-md-links/links/testLinks01.md',
     '/Users/Drive/Documents/LABORAToRIa/LIM012-fe-md-links/links/testLinks02.md',
   ],
@@ -18,6 +19,11 @@ const listOfAnyFiles = [
   '/Users/Drive/Documents/LABORAToRIa/LIM012-fe-md-links/links/morefiles/app.js',
   '/Users/Drive/Documents/LABORAToRIa/LIM012-fe-md-links/links/morefiles/morefile02.md',
   '/Users/Drive/Documents/LABORAToRIa/LIM012-fe-md-links/links/morefiles/morefiles01.md',
+  '/Users/Drive/Documents/LABORAToRIa/LIM012-fe-md-links/links/morefiles/testfiles',
+  '/Users/Drive/Documents/LABORAToRIa/LIM012-fe-md-links/links/morefiles/testfiles/moretestfiles',
+  '/Users/Drive/Documents/LABORAToRIa/LIM012-fe-md-links/links/morefiles/testfiles/moretestfiles/more-test-files01.md',
+  '/Users/Drive/Documents/LABORAToRIa/LIM012-fe-md-links/links/morefiles/testfiles/moretestfiles-app.js',
+  '/Users/Drive/Documents/LABORAToRIa/LIM012-fe-md-links/links/morefiles/testfiles/testapp.js',
   '/Users/Drive/Documents/LABORAToRIa/LIM012-fe-md-links/links/testLinks01.md',
   '/Users/Drive/Documents/LABORAToRIa/LIM012-fe-md-links/links/testLinks02.md',
 ];

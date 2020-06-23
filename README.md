@@ -22,7 +22,7 @@ algunas estadísticas.
 ## Instalacíon
 
 ```
-
+npm install  paula113/LIM012-fe-md-links
 ```
 ***
 
@@ -72,10 +72,10 @@ pendientes de tu proyecto anterior.
 
 ### Testing
 - [x] Testeo de tus funciones
-- [ ] Testeo asíncrono
-- [ ] Uso de librerias de Mock
-- [ ] Mocks manuales
-- [ ] Testeo para multiples Sistemas Operativos
+- [x] Testeo asíncrono
+- [x] Uso de librerias de Mock
+- [x] Mocks manuales
+- [x] Testeo para multiples Sistemas Operativos
 
 ### Git y Github
 - [x] Organización en Github
