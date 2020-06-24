@@ -22,7 +22,7 @@ algunas estadísticas.
 ## Instalacíon
 
 ```
-npm install  paula113/LIM012-fe-md-links
+npm install paula113/LIM012-fe-md-links
 ```
 ***
 
@@ -32,13 +32,13 @@ npm install  paula113/LIM012-fe-md-links
 Expone ejecutable `md-links` con las opciones:
 
 - `--validate`: Determina si se desea validar los links encontrados por medio de una petición HTTP para averiguar si el link funciona o no
-<!-- ![Implementacion de --validate]() -->
+![Implementacion de --validate](https://github.com/paula113/LIM012-fe-md-links/blob/master/img/--vaidate.png)
 
 - `--stats`: Mostrará estadísticas básicas sobre los links. 
-<!-- ![Implementacion de ---stats]() -->
+![Implementacion de ---stats](https://github.com/paula113/LIM012-fe-md-links/blob/master/img/--stats.png)
 
 - `--validate` y `--stats`: Representa las estadísticas que necesiten de los resultados de la validación. 
-<!-- ![Implementacion de --validate --stats]() -->
+![Implementacion de --validate --stats](https://github.com/paula113/LIM012-fe-md-links/blob/master/img/--stats--validate.png)
 
 
 ***
